@@ -1,0 +1,161 @@
+
+body
+{
+    max-width: 100%;
+    background-image: url("../img/image2.png");
+    background-size: 100%;
+}
+
+.simple-form
+{
+    text-align: center;
+    margin: 100px 400px;
+}
+
+#registration
+{
+    width: 100%;
+    background-color: #8a8a8a;
+    opacity: 0.8;
+    padding: 50px 0px;
+}
+
+#button
+{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#butto
+{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    background-color:black;
+    border:2px solid #01010c;
+    color: aliceblue;
+    font-size: 16px;
+}
+#log
+{
+    text-decoration: none;
+    color: dodgerblue;
+}
+body, html
+{
+font-family: 'Titillium Web', sans-serif;
+padding: 0;
+margin: 0;
+}
+
+header
+{
+  background-color: #2e2e2e;
+}
+.container
+{
+  max-width: 1200px;
+  margin:0 auto;
+}
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+.header-top
+{
+color: white;
+display: flex;
+}
+.header-top ul
+{
+  list-style-type: none;
+  display: flex;
+  padding: 3px;
+}
+.header-top a
+{
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+  justify-content: center;
+}
+.header-top a li:hover
+{
+  color: #6D214F;
+}
+.header-bottom ul
+{
+  display: flex;
+  list-style-type: none;
+}
+.header-bottom ul li
+{
+  padding: 10px 4px;
+}
+.header-bottom ul li a
+{
+  padding: 6px;
+  color: white;
+  text-align: center;
+  background: #787878;
+  border-radius: 50%;
+}
+.facebook:hover
+{
+  background-color: #007bb5;
+}
+.instagram:hover
+{
+  background-color: #1da1f2;
+}
+.twitter:hover
+{
+  background-color: #bd081c;
+}
+.googleplus:hover
+{
+  background-color: #db4437;
+}
+
+
+
+.dropdown div {
+    display: none;
+}
+
+.dropdown:hover div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.dropdown div a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: auto;
+    height: 30px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.dropdown div a:hover {
+    background-color: #0099ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+li
+{
+    color: white;
+}
