@@ -181,12 +181,9 @@ header("location: /admin-panel/users");
         $selector[] = 'id';
     }
 // $_POST['spliterwith']
-    if(preg_match('/\|\/\%\#\!\$/',$_POST['spliterwith'])){
-        $spliter = $_POST['spliterwith'];
-    }else{
-        $spliter = '|';
-        
-    }
+    
+    $spliter = $_POST['spliterwith'];
+   
 
 $allselector = implode(",", $selector);
 

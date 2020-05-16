@@ -8,7 +8,7 @@ define("ServerUSER",'root');
 //#3
 define("ServerPASS",'');
 //#4 leave this anyname to create new database with default inserted data 
-define("ServerDATABASE",'mydb_phpv1');
+define("ServerDATABASE",'mydb_phpv2');
 
 
 
