@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -79,7 +81,9 @@ text-decoration: none;
 <?php }
     
     if(!isset($_COOKIE['tempinc'])){
-      $url = 'http://api.weatherapi.com/v1/current.json?key=90b16f8a23a84f9eac3184917201005&q=auto:ip';
+      $ipofuser = htmlentities($_SERVER['REMOTE_ADDR']);
+
+      $url = 'http://api.weatherapi.com/v1/current.json?key=90b16f8a23a84f9eac3184917201005&q='.$ipofuser;
       
       $data = file_get_contents($url);
       $dataparsed = json_decode($data);

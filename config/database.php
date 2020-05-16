@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 
 // to config please fill #1,#2,#3
 //#1
@@ -9,7 +8,7 @@ define("ServerUSER",'root');
 //#3
 define("ServerPASS",'');
 //#4 leave this anyname to create new database with default inserted data 
-define("ServerDATABASE",'mydb_php');
+define("ServerDATABASE",'mydb_phpv1');
 
 
 
